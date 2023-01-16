@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Odin Project Signup form</title>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <section class="sidebar">
+        <div class="banner">
+          <img class="banner-img" src="odin.png" alt="" />
+          <span class="banner-text">ODIN</span>
+        </div>
+        <h5 class="copyright">
+          Photo By
+          <a href="https://unsplash.com/@weareambitious"
+            >Ambitious Creative Co. - Rick Barrett</a
+          >
+        </h5>
+      </section>
+
+      <section class="main-content">
+        <h3 class="heading-text">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. 
+          <br>
+          Sign up <em>now</em> to get started. 
+          <br /><br />
+          you <em>know</em> you want to.
+        </h3>
+
+        <form action="" method="POST">
+          <div class="form-wrapper">
+            <h2>Let's do this!</h2>
+            <div class="form-row">
+              <div class="form-input">
+                <label class="field-label" for="first-name">first name</label>
+                <input type="text" name="first-name" id="first-name" />
+              </div>
+              <div class="form-input">
+                <label class="field-label" for="last-name">last name</label>
+                <input type="text" name="last-name" id="last-name" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-input">
+                <label class="field-label" for="email">email</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="form-input">
+                <label class="field-label" for="phone-number"
+                  >phone number</label
+                >
+                <input type="tel" name="phone-number" id="phone-number" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-input">
+                <label class="field-label" for="password">password</label>
+                <input
+                  class="error"
+                  type="password"
+                  name="password"
+                  id="password"
+                />
+                <label class="error" for="password"
+                  >*Passwords do not match</label
+                >
+              </div>
+              <div class="form-input">
+                <label class="field-label" for="password-confirm"
+                  >confirm password</label
+                >
+                <input
+                  class="error"
+                  type="password"
+                  name="password-confirm"
+                  id="password-confirm"
+                />
+              </div>
+            </div>
+          </div>
+          <button class="form-button" type="submit">create account</button>
+
+          <h3 class="message-login">
+            Already have an account? <a href="#">Log In</a>
+          </h3>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
