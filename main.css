@@ -25,7 +25,7 @@ main {
 .sidebar {
   width: 35%;
   height: 100vh;
-  background-image: url("/banner.jpg");
+  background-image: url("./banner.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
